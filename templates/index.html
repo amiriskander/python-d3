@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src=”https://d3js.org/d3.v3.min.js"></script>
+</head>
+<body>
+    <form method=”post” >
+        <input name=”Country_field” placeholder=”Enter country name” >
+        <input type=”number” name=”Year_field” placeholder=”Enter Year” >
+        <input type=”submit” value=”Submit Country and Year” >
+    </form>
+
+    <div class=”left-div” id=”graphDiv” style=”border: thin solid black”>
+        <p>
+            <b>
+                Production data by category and sub-categories in 1000 tonnes for {{CountryName}}(Click on the bars
+                to explore sub-divisions)
+            </b>
+            <br/>
+            <br/>
+            FAO defines production as “Unless otherwise indicated, production is reported at the farm level for crop and
+            livestock products (i.e. in the case of crops, excluding harvesting losses) and in terms of live weight for
+            fish items.”
+        </p>
+    </div>
+
+</body>
+</html>
